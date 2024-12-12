@@ -37,6 +37,8 @@ const boleto = {
   boleto: {
     numeroDocumento: '1001',
     especieDocumento: 'DM',
+    linhaDigitavel: '12345',
+    codigoDeBarras: '00194994700000123000000003128557042300300417',
     valor: 110.00,
     datas: {
       vencimento: '02-04-2020',
