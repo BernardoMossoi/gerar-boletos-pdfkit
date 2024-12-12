@@ -1,5 +1,5 @@
 {
-  "name": "gerar-boletos",
+  "name": "gerar-boletos-pdfkit",
   "version": "1.4.5",
   "description": "Gerar boletos para vários bancos",
   "main": "lib/index.js",
@@ -54,6 +54,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Romulosanttos/gerar-boletos.git"
+    "url": "git+https://github.com/BernardoMossoi/gerar-boletos-pdfkit.git"
   }
 }
