@@ -63,7 +63,14 @@ async function gerarBoletoBB() {
     boleto.boleto.imagemQrCode = await gerarQrCodePix(boleto.boleto.emv);
   }
 
-  const novoBoleto = new Boletos(boleto);
+  const novoBoleto = new Boletos([
+    boleto,
+    boleto,
+    boleto,
+    boleto,
+    boleto,
+    boleto,
+  ]);
   novoBoleto.gerarBoleto();
 
   novoBoleto
