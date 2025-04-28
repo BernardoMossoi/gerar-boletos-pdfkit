@@ -56,6 +56,9 @@ async function gerarBoletoBB() {
         processamento: '2024-10-25',
         documentos: '2024-10-25',
       },
+      valorCobrado:125448.54,
+      ValorMoraMultaJuros: 1.59,
+      valorDescontos: 0.01,
     },
   };
 
@@ -64,6 +67,27 @@ async function gerarBoletoBB() {
   }
 
   const novoBoleto = new Boletos([
+    boleto,
+    boleto,
+    boleto,
+    boleto,
+    boleto,
+    boleto,
+    boleto,
+    boleto,
+    boleto,
+    boleto,
+    boleto,
+    boleto,
+    boleto,
+    boleto,
+    boleto,
+    boleto,
+    boleto,
+    boleto,
+    boleto,
+    boleto,
+    boleto,
     boleto,
     boleto,
     boleto,
