@@ -1,6 +1,6 @@
 {
   "name": "gerar-boletos-pdfkit",
-  "version": "1.4.9",
+  "version": "1.5.0",
   "description": "Gerar boletos para vários bancos",
   "main": "lib/index.js",
   "directories": {
