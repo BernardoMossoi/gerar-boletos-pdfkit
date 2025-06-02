@@ -18,6 +18,9 @@ async function gerarBoletoBB() {
         cep: '20030-030',
       },
     },
+     locaisDePagamento: [
+    'Pagável em qualquer banco até o vencimento',
+  ],
     informativo: [''],
     instrucoes: [
       'Após o vencimento Mora dia R$ 1,59',
